@@ -1,0 +1,278 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 10%;
+}
+
+
+/****************************    Navbar    ****************************/
+
+.nav-bar {
+    padding-top: 20px;
+} 
+
+.nav-menu {
+    display: inline;
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav-menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: #AAA;
+}
+
+
+/****************************    Footer    ****************************/
+
+footer {
+    padding: 50px 0;
+}
+
+
+/****************************    index.html    ****************************/
+
+.foto-perfil img {
+    width: 80%;
+}
+
+.obra img {
+    width: 80%;
+}
+
+.texto-presentacion-1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.texto-presentacion-1 p {
+    font-size: 24px;
+    text-align: left;
+    padding: 30px 10px;
+}
+
+.texto-presentacion-2 {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.texto-presentacion-2 p {
+    font-size: 24px;
+    text-align: left;
+    padding: 30px 10px;
+}
+
+.lista-obras {
+    width: 97%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.lista-obras .obra {
+    display: inline;
+}
+
+.lista-obras img {
+    cursor: pointer;
+    height: 200px;
+    width: 20%;
+}
+
+
+/****************************    trayectoria.html    ****************************/
+
+.main-content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fotos {
+    display: flex;
+    align-items: start;
+    padding: 50px 0 20px;
+}
+
+.fotos .foto-pedro {
+    max-height: 350px;
+    padding-right: 30px;
+}
+
+.expo-individuales, .expo-colectivas, .premios {
+    text-align: left;    
+    margin-bottom: 50px;
+}
+
+
+.main-content h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 24px;
+}
+
+.main-content p {
+    font-size: 22px;
+}
+
+
+/****************************    eventos.html    ****************************/
+
+.eventos {
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: left;
+    width: 70%;
+}
+
+.fila-eventos {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+}
+
+.eventos h1 {
+    padding-bottom: 20px;
+}
+
+.lista-eventos img {
+    height: 400px;
+    margin-right: 100px;
+}
+
+.fila-eventos .doble {
+    height: 300px;
+}
+
+.fila-eventos .triptico {
+    height: 300px;
+}
+
+.titulo-prensa {
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+
+.fila-prensa {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+
+.lista-prensa img {
+    height: 500px;
+}
+
+
+
+/****************************    contacto.html    ****************************/
+
+.contact-page {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contact-pics {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 80px;
+}
+
+.form-text {
+    margin-bottom: 50px;
+}
+
+.contact-pics img {
+    height: 300px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.form-name, .form-email {
+    margin-bottom: 30px;
+}
+
+#message {
+    font-size: 18px;
+    height: 200px;
+    width: 80%;
+}
+
+
+/****************************    obras.html    ****************************/
+
+.obras-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pics-navbar ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.pics-navbar ul li {
+    display: inline;
+}
+
+.pics-navbar ul li a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fila-grid {
+    display: flex;
+}
+
+.fila-grid img {
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.v-visible {
+    visibility: visible;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
