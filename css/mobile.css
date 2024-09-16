@@ -1,0 +1,285 @@
+
+/* Breakpoints 480px / 768px / 1024px */
+
+@media (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+
+/* Raleway <weight>: Use a value from 100 to 900 */
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.logo img {
+    width: 20%;
+}
+
+/****************************    Navbar    ****************************/
+
+.nav-bar {
+    margin-top: 3%;
+    margin-bottom: 3%;
+} 
+
+.nav-menu {
+    display: inline;
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 4%;
+    font-size: 1em;
+}
+
+.nav-menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: #AAA;
+}
+
+/****************************    Footer    ****************************/
+
+footer {
+    padding: 50px 0;
+}
+
+
+/****************************    index.html    ****************************/
+
+.texto-presentacion-1 {
+    margin: 0 auto;
+    width: 99%;
+}
+
+.texto-presentacion-1 p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 1.5em 1em 1.2em;
+}
+
+.texto-presentacion-2 {
+    margin: 0 auto;
+    padding-top: 1.2em;
+    width: 90%;
+}
+
+.texto-presentacion-2 p {
+    font-family: "Merriweather", serif;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.8em;
+    padding: 1.5em 0.3em;
+}
+
+.foto-perfil img {
+    width: 100%;
+}
+
+.obra-grande {
+    display: none;
+}
+
+.lista-obras {
+    margin: 0 auto;
+    padding-bottom: 2.2em;
+}
+
+.lista-obras .obra {
+    display: block;
+    margin-top: 2.2em;
+}
+
+
+.lista-obras .obra img {
+    cursor: default;
+    width: 90%;
+}
+
+
+/****************************    obras.html    ****************************/
+
+.obras-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pics-navbar ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.pics-navbar ul li {
+    display: inline;
+}
+
+.pics-navbar ul li a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.pics-navbar a:hover {
+    color: #AAA;
+}
+
+.fila-grid {
+    display: inline-block;
+}
+
+.fila-grid img {
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+
+/****************************    trayectoria.html    ****************************/
+
+.trayectoria {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fotos {
+    display: block;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.fotos .foto-pedro {
+    max-height: 350px;
+    padding-right: 30px;
+}
+
+.expo-individuales, .expo-colectivas, .premios {
+    text-align: left;    
+    margin-bottom: 50px;
+}
+
+.trayectoria h1 {
+    font-family: "Merriweather", serif;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.trayectoria h2 {
+    font-family: "Merriweather", serif;
+    font-size: 1.3em;
+}
+
+.trayectoria p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+/****************************    eventos.html    ****************************/
+
+.eventos {
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: left;
+    width: 80%;
+}
+
+.eventos h1 {
+    font-family: "Merriweather", serif;
+    padding-bottom: 20px;
+}
+
+.eventos img {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
+/****************************    contacto.html    ****************************/
+
+.contact-page {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-pics {
+    display: inline-block;
+    padding: 50px 0 50px;
+}
+
+.form-text {
+    margin-bottom: 50px;
+}
+
+.contact-pics img {
+    height: 250px;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.social img {
+    margin-right: 10px;
+    width: 6%;
+}
+
+.social .facebook {
+    border-radius: 15px;
+}
+
+/* 
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.form-name, .form-email {
+    margin-bottom: 30px;
+}
+
+#message {
+    font-size: 18px;
+    height: 200px;
+    width: 80%;
+}
+
+*/
